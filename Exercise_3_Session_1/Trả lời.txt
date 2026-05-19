@@ -1,0 +1,11 @@
+1, 
+- Các thực thể: Hotel, Room, Customer, Booking, Payment,Review, Booking_Detail
+- Thuộc tính chính: hotel_id, booking_detail_id, room_id, payment_id, customer_id, booking_id
+2, Mối quan hệ giữa các thực thể:
+- Một khách sạn có nhiều phòng
+- Một khách hàng có thể đặt nhiều phòng (qua nhiều booking)
+- Một booking có thể gồm nhiều phòng (ví dụ đặt 2 phòng cùng lúc)
+- Một booking có đúng một thanh toán (nếu thành công)
+- Một khách hàng có thể viết nhiều đánh giá cho các khách sạn đã từng ở
+3, Thực thể trung gian: Booking_Detail, Review
+4, sơ đồ như ảnh
