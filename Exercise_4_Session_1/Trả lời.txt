@@ -1,0 +1,11 @@
+1, 
+- Các thực thể: User, Course,Category,Instructor, Enrollment,Lesson,Quiz,Result
+- Thuộc tính chính: category_id,enrollment_id,user_id,result_id,quiz_id,lesson_id,course_id,
+2, Mối quan hệ giữa các thực thể:
+- Một giảng viên có thể dạy nhiều khóa học
+- Một khóa học thuộc về một danh mục
+- Một khóa học có nhiều bài học, mỗi bài học có thể có quiz
+- Một học viên có thể học nhiều khóa học → mối quan hệ n–n (Enrollment)
+- Một học viên có thể làm nhiều quiz, mỗi lần làm có một Result riêng
+3, Sơ đồ theo ảnh
+
