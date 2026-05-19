@@ -1,0 +1,10 @@
+1, 
+- Các thực thể: Student, Course, Class_Section, Instructor, Enrollment,
+- Thuộc tính chính: student_id, class_section_id, instructor_id, course_id, enrollment_id
+2, Mối quan hệ giữa các thực thể:
+- Giảng viên dạy lớp học phần nào
+- Lớp học thuộc về môn học nào
+- Sinh viên đăng ký lớp học phần nào
+3, Sơ đồ theo ảnh
+4, 
+- Khóa chính: student_id, class_section_id, instructor_id, course_id, enrollment_id
