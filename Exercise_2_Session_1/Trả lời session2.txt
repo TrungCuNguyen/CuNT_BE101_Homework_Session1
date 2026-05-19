@@ -1,0 +1,12 @@
+1, 
+- Các thực thể: Customer, Product, Order, OrderDetail, Staff
+- Thuộc tính chính: product_id, customer_id, order_id, staff_id, order_detail_id
+2, Mối quan hệ giữa các thực thể:
+- Khách hàng đặt nhiều đơn hàng
+- Một đơn hàng chứa nhiều sản phẩm
+- Nhân viên xử lý đơn hàng
+- Đơn hàng có nhiều chi tiết đơn hàng
+- Sản phẩm ở trong nhiều chi tiết đơn hàng
+3, Sơ đồ theo ảnh
+4, 
+- Khóa chính: product_id, customer_id, order_id, staff_id, order_detail_id
